@@ -14,11 +14,20 @@
 <title>puto_animation</title>
 <!-- write your code here -->
 <style>
-  #animation_container {
+body {
+  background: #f06;
+  background: linear-gradient(45deg, #f06, yellow);
+  min-height: 100%;
+}
+
+#animation_container {
+  background: #f06;
+  background: linear-gradient(45deg, #f06, yellow);
+  min-height: 100%;
 	position:absolute;
 	margin:auto;
 	left:0;right:0;
-  }
+}
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="puto_animation.js"></script>
@@ -66,8 +75,8 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1440px; height:900px">
-		<canvas id="canvas" width="1440" height="900" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 9.00); width:1440px; height:900px">
+		<canvas id="canvas" width="1440" height="900" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1440px; height:900px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
